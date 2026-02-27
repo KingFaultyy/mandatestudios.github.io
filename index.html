@@ -1,175 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mandate Studios</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
-
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #0b0f14;
-    color: white;
-    line-height: 1.6;
-}
-
-header {
-    position: fixed;
-    width: 100%;
-    padding: 20px 60px;
-    background: rgba(0,0,0,0.85);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
-}
-
-.logo {
-    font-weight: 700;
-    letter-spacing: 3px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 30px;
-    transition: 0.3s;
-    font-weight: 500;
-}
-
-nav a:hover {
-    color: #c6a34f;
-}
-
-.hero {
-    height: 100vh;
-    background: linear-gradient(to bottom, #0b0f14, #141c24);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.hero h1 {
-    font-size: 4rem;
-    letter-spacing: 5px;
-}
-
-.hero p {
-    margin-top: 20px;
-    font-size: 1.3rem;
-    color: #c6a34f;
-}
-
-.hero a {
-    margin-top: 30px;
-    padding: 14px 40px;
-    background: #c6a34f;
-    color: black;
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 4px;
-    transition: 0.3s;
-}
-
-.hero a:hover {
-    background: white;
-}
-
-.section {
-    padding: 120px 60px;
-    text-align: center;
-}
-
-.section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.project-card {
-    margin-top: 40px;
-    padding: 40px;
-    background: #141c24;
-    border-radius: 8px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.3s;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-    background: #1a2430;
-}
-
-footer {
-    padding: 40px;
-    text-align: center;
-    background: #0b0f14;
-    font-size: 0.9rem;
-    color: #888;
-}
-</style>
+    <meta charset="UTF-8">
+    <title>Mandate Studios</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-    <div class="logo">MANDATE STUDIOS</div>
+    <h1>Mandate Studios</h1>
     <nav>
-        <a href="#about">Studio</a>
-        <a href="#projects">Projects</a>
-        <a href="#news">News</a>
-        <a href="articles-of-power.html">Articles of Power</a>
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles of Power</a>
     </nav>
 </header>
 
 <section class="hero">
-    <h1>MANDATE STUDIOS</h1>
-    <p>Building Structured Worlds of Power</p>
-    <a href="articles-of-power.html">Explore Articles of Power</a>
+    <h2>Structured Governance Simulation</h2>
+    <p>Building immersive institutional systems with global scalability.</p>
 </section>
 
-<section class="section" id="about">
-    <h2>About the Studio</h2>
-    <p>
-    Mandate Studios develops scalable governance simulations centered on institutional balance,
-    constitutional systems, and progressive world expansion.
-    </p>
-</section>
-
-<section class="section" id="projects">
-    <h2>Featured Project</h2>
+<section class="projects">
+    <h2>Current Project</h2>
     <div class="project-card">
         <h3>Articles of Power</h3>
-        <p>
-        A global open-world political simulation beginning with the activation of the United States.
-        Featuring structured elections, bicameral legislation, supermajority voting systems,
-        impeachment processes, judicial review, and progressive international expansion.
-        </p>
-        <br>
-        <a href="articles-of-power.html" style="color:#c6a34f; font-weight:700;">View Project →</a>
+        <p>A worldwide open-world political simulation beginning with the activation of the United States.</p>
+        <a href="articles.html" class="button">View Project</a>
     </div>
 </section>
 
-<section class="section" id="news">
-    <h2>Latest Updates</h2>
-    <p>World Activation I – United States</p>
-    <p>Impeachment & 75% Supermajority System Implemented</p>
-</section>
-
 <footer>
-© 2026 Mandate Studios. All Rights Reserved.<br>
-Articles of Power is a fictional governance simulation.
+    <p>© 2026 Mandate Studios. All rights reserved.</p>
 </footer>
 
 </body>
