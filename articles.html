@@ -25,20 +25,26 @@
 <!-- Featured Update Banner -->
 <section class="update-banner">
     <div class="update-overlay slide-in">
-        <h2>Update 1.1 — Institutional Expansion</h2>
 
-        <p class="update-description">
-            Major expansion to impeachment mechanics, Supreme Court charge branching,
-            executive removal enforcement, and enhanced national breaking news alerts.
-        </p>
+        <span id="updateType" class="status-badge"></span>
+
+        <h2 id="updateTitle"></h2>
+
+        <p id="updateDescription" class="update-description"></p>
 
         <div class="countdown-box glow">
             <h3>Release Countdown</h3>
             <p id="countdown"></p>
         </div>
 
-        <button class="patch-button" onclick="openModal()">View Patch Notes</button>
+        <button class="patch-button" onclick="openModal()">View Full Details</button>
+
     </div>
+</section>
+
+<section class="roadmap-section">
+    <h2>Legislative Development Roadmap</h2>
+    <div id="roadmapContainer" class="roadmap-container"></div>
 </section>
 
 <!-- Patch Notes Modal -->
