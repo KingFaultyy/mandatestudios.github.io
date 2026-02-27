@@ -3,39 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title>Articles of Power</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
 <header>
     <h1>Articles of Power</h1>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="articles.html">Articles of Power</a>
+        <a href="/index.html">Home</a>
+        <a href="/articles.html">Articles of Power</a>
     </nav>
 </header>
 
-<section class="hero">
-    <h2>World Activation I — United States</h2>
-    <p>Fully democratic governance simulation with structured institutional systems.</p>
+<!-- Breaking News Ticker -->
+<div class="news-ticker">
+    <div class="ticker-content">
+        BREAKING: Update 1.1 Scheduled • Supreme Court Expansion • Cabinet Vote-Out Enforcement • Impeachment System Upgrade
+    </div>
+</div>
+
+<!-- Featured Update Banner -->
+<section class="update-banner">
+    <div class="update-overlay slide-in">
+        <h2>Update 1.1 — Institutional Expansion</h2>
+
+        <p class="update-description">
+            Major expansion to impeachment mechanics, Supreme Court charge branching,
+            executive removal enforcement, and enhanced national breaking news alerts.
+        </p>
+
+        <div class="countdown-box glow">
+            <h3>Release Countdown</h3>
+            <p id="countdown"></p>
+        </div>
+
+        <button class="patch-button" onclick="openModal()">View Patch Notes</button>
+    </div>
 </section>
 
-<section class="event">
-    <h2>Next Scheduled Update</h2>
-    <p id="countdown"></p>
-</section>
-
-<section class="info">
-    <h2>Core Systems</h2>
-    <ul>
-        <li>Bicameral Legislature</li>
-        <li>75% Supermajority Instant Pass</li>
-        <li>Full Impeachment Framework</li>
-        <li>Supreme Court Judicial Review</li>
-        <li>Cabinet Vote-Out System</li>
-        <li>Line of Succession Enforcement</li>
-    </ul>
-</section>
+<!-- Patch Notes Modal -->
+<div id="patchModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Update 1.1 Patch Notes</h2>
+        <ul>
+            <li>Multi-charge impeachment branching</li>
+            <li>Supreme Court trial routing logic</li>
+            <li>75% supermajority instant pass system</li>
+            <li>Cabinet immediate removal enforcement</li>
+            <li>Line of succession automation</li>
+            <li>Election interruption case handling</li>
+        </ul>
+    </div>
+</div>
 
 <footer>
     <p>© 2026 Mandate Studios. All rights reserved.</p>
