@@ -10,13 +10,32 @@ const updates = [
         type: "SYSTEM BALANCE",
         title: "Update 1.2 — Legislative Timing Reform",
         description: "Adjusting bill voting durations, refining 75% supermajority instant pass triggers, and optimizing Senate trial pacing.",
-        release: "April 10, 2026 18:00:00"
+        release: "April 19, 2026 18:00:00"
     },
     {
         type: "STRUCTURAL REMOVAL",
         title: "Update 1.3 — Redundant Office Removal",
         description: "Removing inactive executive positions and restructuring cabinet authority pathways.",
-        release: "May 2, 2026 18:00:00"
+        release: "May 17, 2026 18:00:00"
+    }
+     {
+        type: "LEGISLATIVE SESSION",
+        title: "Congress In Session",
+        description: "Congressional chambers activated. Legislative debate, impeachment routing, and amendment proposals are now live.",
+        release: "June 21, 2026 18:00:00"
+    },
+    {
+        type: "DEPARTMENT OF DEFENSE UPDATE",
+        title: "To Server and Protect",
+        description: "National infrastructure security overhaul. Emergency broadcast system activation, federal response routing, and server integrity reinforcement.",
+        release: "July 19, 2026 18:00:00",
+        emergency: true
+    },
+    {
+        type: "SYSTEM EXPANSION",
+        title: "Judicial Systems Expansion",
+        description: "Supreme Court branch expansion and automated constitutional violation routing.",
+        release: "August 16, 2026 18:00:00"
     }
 ];
 
