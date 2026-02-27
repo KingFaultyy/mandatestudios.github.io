@@ -292,3 +292,21 @@ footer {
     font-weight: bold;
     cursor: pointer;
 }
+.breaking-bar {
+    background: linear-gradient(90deg, #8b0000, #b30000);
+    padding: 10px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.breaking-bar span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: ticker 18s linear infinite;
+}
+
+@keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
